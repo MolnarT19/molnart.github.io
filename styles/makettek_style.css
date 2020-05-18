@@ -159,9 +159,9 @@ body{
 }
 
 .kep.f{
-	background-image: url("../images/makettek/1.jpg");
+	background-image: url("../images/makettek/6.jpg");
 	background-size: cover;
-	background-position: center;
+	background-position: center top;
 	flex: 1;
 	margin: 2%;
 }
@@ -170,12 +170,13 @@ body{
 	background-color: #17202A;
 	color: #D0D3D4;
 	text-align: center;
+	font-size: 16px;
 	padding: 20px;
 	margin-top: auto;
 	font-weight: bolder;
 }
 
-@media(max-width: 768px){
+@media (orientation: portrait), (max-width: 768px){
 	#menu li{
 		display: flex;
 		flex-direction: column;
@@ -183,25 +184,67 @@ body{
 	}
 
 	#showcase h1{
-		padding-top: 1em;
-		padding-bottom: 1em;
+		margin-top: 20%;
+		margin-bottom: 20%;
 	}
 
 	.a1{
 		display: flex;
 		flex-direction: column;
-		height: 30em;
+		height: 40em;
 	}
 
 	.szoveg{
-		flex: 1;
 		padding: 3%;
-		margin-top: 2em;
 		order: 2;
+		flex: 1;
 	}
 
-	.kep{
-		flex: 1;
-		order: 1;
+	.kep.a{
+		background-image: url("../images/makettek/1.jpg");
+		background-size: cover;
+		background-position: center;
+		flex: 10;
+		margin: 2%;
+	}
+
+	.kep.b{
+		background-image: url("../images/makettek/2.jpg");
+		background-size: cover;
+		background-position: center;
+		flex: 10;
+		margin: 2%;
+	}
+
+	.kep.c{
+		background-image: url("../images/makettek/3.jpg");
+		background-size: cover;
+		background-position: center top;
+		flex: 10;
+		margin: 2%;
+	}
+
+	.kep.d{
+		background-image: url("../images/makettek/4.jpg");
+		background-size: cover;
+		background-position: center;
+		flex: 10;
+		margin: 2%;
+	}
+
+	.kep.e{
+		background-image: url("../images/makettek/5.jpg");
+		background-size: cover;
+		background-position: center;
+		flex: 10;
+		margin: 2%;
+	}
+
+	.kep.f{
+		background-image: url("../images/makettek/6.jpg");
+		background-size: cover;
+		background-position: center;
+		flex: 10;
+		margin: 2%;
 	}
 }

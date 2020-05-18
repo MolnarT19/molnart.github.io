@@ -111,12 +111,13 @@ body{
 	background-color: #17202A;
 	color: #D0D3D4;
 	text-align: center;
+	font-size: 16px;
 	padding: 20px;
 	margin-top: auto;
 	font-weight: bolder;
 }
 
-@media(max-width: 768px){
+@media (orientation: portrait), (max-width: 768px){
 	#menu li{
 		display: flex;
 		flex-direction: column;
@@ -124,8 +125,8 @@ body{
 	}
 
 	#showcase h1{
-		padding-top: 1em;
-		padding-bottom: 1em;
+		margin-top: 20%;
+		margin-bottom: 20%;
 	}
 	
 	.elemek{
